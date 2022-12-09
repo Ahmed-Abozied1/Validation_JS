@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+    <link rel="stylesheet" href="RegisterPageStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <img src="../images/registerImg.png" alt="logo" />
+        <h1>Create Account</h1>
+        <p>Go ahead and sign up, let everyone know how awesome you are!</p>
+        <div class="input-control">
+          <input
+            id="username"
+            type="text"
+            name="username"
+            placeholder="Username"
+          />
+
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <input id="email" type="email" placeholder="Email" name="email" />
+
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Password"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <input
+            id="password2"
+            type="password"
+            name="password2"
+            placeholder="Confirm Password"
+          />
+          <div class="error"></div>
+        </div>
+        <button type="submit">Create Account</button>
+      </form>
+    </div>
+
+    <script src="RegisterPage.js"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;500;600;700;800;900&family=Nunito:ital,wght@0,300;0,400;1,300;1,500&family=Poppins:ital,wght@0,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+body{
+    background: linear-gradient(to right,#0f2027,#203a43,#2c5364);
+    font-family: "Poppins",sans-serif;
+}
+
+#form{
+    width: 400px;
+    margin: 5vh auto 5vh auto;
+    padding: 20px;
+    background: linear-gradient(to top,#F5F7FE,#F3EDF4,#F5F7FF);
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1{
+color: #0f2027;
+text-align: center;
+
+
+}
+.icon{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+span{
+    margin-right: 10px;
+}
+#form button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: #fff;
+    background: linear-gradient(to right,#2663DF,#406ED9,#6E8CEF);
+    border-radius: 7px;
+    border: none;
+}
+.input-control{
+    display: flex;
+    flex-direction: column;
+}
+.input-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.error input{
+    border-color: #ff3860;
+}
+.input-control.success input{
+ background-color: #09c372;   
+}
+
+.input-control .error{
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+form p{
+    font-size: 18px;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
